@@ -63,7 +63,7 @@
             bindings = <
   &kp F11  &kp F8  &kp F9  &kp F10  &kp C_BRIGHTNESS_INC    &trans        &trans        &trans        &trans        &sys_reset
   &kp F1   &kp F2  &kp F3  &kp F4   &kp C_BRIGHTNESS_DEC    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-  &kp F12  &kp F5  &kp F6  &kp F7   &kp C_PIP               &trans        &trans        &trans        &trans        &trans
+  &kp F12  &kp F5  &kp F6  &kp F7   &kp LOCKING_SCROLL      &trans        &trans        &trans        &trans        &trans
                            &trans   &trans                  &trans        &bt BT_CLR
             >;
         };
