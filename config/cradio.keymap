@@ -89,7 +89,7 @@
 
         game {
             bindings = <
-  &trans     &kp Q   &kp W  &kp E  &trans       &trans  &trans  &trans  &trans  &trans
+  &trans     &kp Q   &kp W  &kp E  &trans       &trans  &trans  &trans  &trans  &kp A
   &kp LSHFT  &kp A   &kp S  &kp D  &kp R        &trans  &trans  &trans  &trans  &trans
   &trans     &trans  &kp T  &kp X  &kp N        &trans  &trans  &trans  &trans  &to 0
                             &kp C  &kp SPACE    &trans  &trans
