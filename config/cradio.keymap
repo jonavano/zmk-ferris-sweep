@@ -46,6 +46,11 @@
             bindings = <&mkp LCLK>;
             key-positions = <16 17>;
         };
+
+        ege {
+            bindings = <&ht LEFT_SHIFT F>;
+            key-positions = <3 14>;
+        };
     };
 
     keymap {
