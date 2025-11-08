@@ -51,6 +51,16 @@
             bindings = <&ht LEFT_SHIFT F>;
             key-positions = <3 14>;
         };
+
+        gr {
+            bindings = <&kp T>;
+            key-positions = <3 4>;
+        };
+
+        dg {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <12 14>;
+        };
     };
 
     keymap {
