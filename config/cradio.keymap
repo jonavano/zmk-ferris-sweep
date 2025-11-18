@@ -39,7 +39,7 @@
 
         escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
+            key-positions = <2 3>;
         };
 
         test_mouse {
@@ -68,10 +68,10 @@
 
         default_layer {
             bindings = <
-  &kp Q           &kp W           &kp E               &kp R    &kp T          &kp Y        &kp U                  &kp I               &kp O           &kp P
-  &ht LEFT_GUI A  &ht LEFT_ALT S  &ht LEFT_CONTROL D  &trans   &kp G          &kp H        &htShift LEFT_SHIFT J  &ht LEFT_CONTROL K  &ht LEFT_ALT L  &ht LEFT_GUI SEMICOLON
-  &kp Z           &kp X           &kp C               &kp V    &kp B          &kp N        &kp M                  &kp COMMA           &kp DOT         &kp FSLH
-                                                      &kp TAB  &lt 2 SPACE    &lt 1 ENTER  &kp BACKSPACE
+  &kp Q           &kp W           &kp E               &kp R      &kp T          &kp Y        &kp U                  &kp I               &kp O           &kp P
+  &ht LEFT_GUI A  &ht LEFT_ALT S  &ht LEFT_CONTROL D  &trans     &kp G          &kp H        &htShift LEFT_SHIFT J  &ht LEFT_CONTROL K  &ht LEFT_ALT L  &ht LEFT_GUI SEMICOLON
+  &kp Z           &kp X           &kp C               &kp V      &kp B          &kp N        &kp M                  &kp COMMA           &kp DOT         &kp FSLH
+                                                      &lt 5 TAB  &lt 2 SPACE    &lt 1 ENTER  &kp BACKSPACE
             >;
         };
 
@@ -108,6 +108,15 @@
   &kp LSHFT  &kp A   &kp S  &kp D  &kp R        &trans  &trans  &trans  &trans  &trans
   &trans     &trans  &kp T  &kp X  &kp N        &trans  &trans  &trans  &trans  &to 0
                             &kp C  &kp SPACE    &trans  &trans
+            >;
+        };
+
+        mouse_layer {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &msc SCRL_LEFT  &msc SCRL_RIGHT  &trans        &trans           &msc SCRL_UP
+  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_UP  &mmv MOVE_RIGHT  &msc SCRL_DOWN
+  &trans  &trans  &trans  &trans  &trans    &trans          &mkp MB1         &mkp MCLK     &mkp RCLK        &trans
+                          &trans  &trans    &trans          &trans
             >;
         };
     };
